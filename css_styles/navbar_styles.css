@@ -1,0 +1,37 @@
+.nav {
+  -width: 100%;
+  height: 15em;
+  background: rgb(32, 144, 45);
+  background: linear-gradient(
+    90deg,
+    rgba(32, 144, 45, 1) 0%,
+    rgba(5, 164, 15, 1) 0%,
+    rgba(20, 219, 40, 1) 37%,
+    rgba(0, 255, 162, 1) 100%
+  );
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 10px;
+  margin: 1em;
+  box-shadow: 5px 5px 14px 5px #bababa;
+
+  position: sticky;
+  top: 0;
+}
+
+.Headline {
+  font-family: sans-serif;
+  text-shadow: 5px 5px 14px 5px #bababa;
+  color: white;
+  font-size: 2rem;
+}
+
+.logo {
+  height: 7rem;
+  transform: rotate(15deg);
+
+  filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(108deg)
+    brightness(102%) contrast(102%);
+}

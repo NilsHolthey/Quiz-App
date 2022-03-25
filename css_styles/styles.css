@@ -1,0 +1,18 @@
+@import "./navbar_styles.css";
+@import "./main.css";
+@import "./footer_navbar.css";
+@import "./question__box.css" * {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin: 0;
+}
+
+.header {
+  -position: relative;
+}

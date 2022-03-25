@@ -1,0 +1,56 @@
+.question__box {
+  position: relative;
+  -z-index: -10;
+}
+
+.bookmark {
+  position: absolute;
+  top: -20px;
+  right: 20px;
+  height: 4rem;
+  filter: invert(91%) sepia(0%) saturate(1567%) hue-rotate(210deg)
+    brightness(95%) contrast(98%);
+}
+
+.bookmark:hover {
+  filter: invert(30%) sepia(11%) saturate(8%) hue-rotate(318deg) brightness(94%)
+    contrast(85%);
+  cursor: pointer;
+}
+
+.category {
+  width: 100%;
+  margin: 0.5rem;
+  gap: 0.5rem;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.category div {
+  color: white;
+  border-radius: 8px;
+  box-shadow: 0 0 5px 0 rgb(198, 196, 196);
+  background: rgba(43, 199, 61, 0.841);
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+  padding-bottom: 0.1rem;
+}
+.question {
+  color: gray;
+}
+
+.answer {
+  color: gray;
+}
+.button {
+  color: white;
+  border-radius: 8px;
+  box-shadow: 0 0 8px 0 rgb(198, 196, 196);
+  background: rgba(43, 199, 61, 0.841);
+  padding: 1rem;
+}
+
+.button:hover {
+  color: rgb(96, 96, 96);
+  cursor: pointer;
+}
