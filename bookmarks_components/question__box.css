@@ -22,13 +22,13 @@
   top: -20px;
   right: 20px;
   height: 4rem;
-  filter:  invert(30%) sepia(11%) saturate(8%) hue-rotate(318deg) brightness(94%)
-  contrast(85%);;
+  filter: invert(30%) sepia(11%) saturate(8%) hue-rotate(318deg) brightness(94%)
+    contrast(85%);
 }
 
 .bookmark:hover {
-  filter: invert(30%) sepia(11%) saturate(8%) hue-rotate(318deg) brightness(94%)
-    contrast(85%);
+  filter: invert(91%) sepia(0%) saturate(1567%) hue-rotate(210deg)
+    brightness(95%) contrast(98%);
 
   cursor: pointer;
 }
