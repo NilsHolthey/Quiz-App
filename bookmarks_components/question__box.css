@@ -45,7 +45,7 @@
   color: white;
   border-radius: 8px;
   box-shadow: 0 0 5px 0 rgb(198, 196, 196);
-  background: rgba(70, 185, 83, 0.841);
+  background: rgb(70, 185, 83);
   padding-left: 0.75rem;
   padding-right: 0.75rem;
   padding-bottom: 0.1rem;
@@ -61,7 +61,14 @@
   color: white;
   border-radius: 8px;
   box-shadow: 0 0 8px 0 rgb(198, 196, 196);
-  background: rgba(70, 185, 83, 0.841);
+  background: rgb(173, 0, 156);
+  background: radial-gradient(
+    circle,
+    rgba(173, 0, 156, 1) 0%,
+    rgba(168, 68, 158, 1) 33%,
+    rgba(166, 136, 163, 1) 100%,
+    rgba(173, 0, 156, 1) 100%
+  );
   padding: 1rem;
 }
 

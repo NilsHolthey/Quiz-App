@@ -1,0 +1,50 @@
+.nav {
+  z-index: 10;
+  width: 100%;
+  height: 5rem;
+  background: rgb(32, 144, 45);
+  background: linear-gradient(
+    90deg,
+    rgba(32, 144, 45, 1) 0%,
+    rgba(5, 164, 15, 1) 0%,
+    rgba(20, 219, 40, 1) 37%,
+    rgba(0, 255, 162, 1) 100%
+  );
+  opacity: 0.6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0.6;
+  border-radius: 10px;
+  box-shadow: 0px 0px 15px 0px #bababa;
+  box-shadow: inset 0px 0px 15px 0px #bababa;
+  position: fixed;
+  margin-top: 0px;
+  top: 0px;
+  left: 0px;
+}
+
+.header {
+  background-color: white;
+  z-index: 5;
+  width: 100%;
+  height: 5rem;
+  position: fixed;
+  top: 0;
+}
+.Headline {
+  font-family: sans-serif;
+  text-shadow: 5px 5px 14px 5px #bababa;
+  color: white;
+  font-size: 2rem;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  height: 5rem;
+  transform: rotate(15deg);
+
+  filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(108deg)
+    brightness(102%) contrast(102%);
+}

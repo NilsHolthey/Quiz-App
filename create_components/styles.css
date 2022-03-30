@@ -1,0 +1,24 @@
+@import "./navbar_styles.css";
+@import "./main.css";
+@import "./footer_navbar.css";
+@import "./formular.css";
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  _font-size: 62.5%;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin: 0;
+}
+
+.header {
+  -position: relative;
+}
