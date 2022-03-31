@@ -12,8 +12,6 @@ html {
   align-items: center;
   font-family: sans-serif;
   flex-wrap: wrap;
-  -overflow-x: scroll;
-  -scroll-behavior: smooth;
 }
 
 .main > * {
