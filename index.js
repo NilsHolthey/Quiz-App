@@ -1,22 +1,15 @@
-let bookmark = document.querySelector(".js-bookmark__box1");
+import Bookmarfunction from "./bookmark.js";
+import Card from "./card.js";
 
-bookmark.addEventListener("click", () => {
-  bookmark.classList.toggle("bookmark__checked");
+const cardElements = document.querySelectorAll(".js-box");
+
+console.log(cardElements);
+cardElements.forEach((cardElement) => {
+  Card(cardElement);
 });
 
-// Answer button
-let showButton = document.querySelector(".js-show__button1");
-const hideButton = document.querySelector(".js-hide__button1");
-const answer = document.querySelector(".js-answer__box1");
+const Bookmarks = document.querySelectorAll(".js-bookmark__box1");
 
-showButton.addEventListener("click", () => {
-  answer.classList.add("answer--active");
-  showButton.classList.add("button__show--active");
-  hideButton.classList.add("button__hide--active");
-});
-
-hideButton.addEventListener("click", () => {
-  answer.classList.remove("answer--active");
-  showButton.classList.remove("button__show--active");
-  hideButton.classList.remove("button__hide--active");
+Bookmarks.forEach((bookmarkButton) => {
+  Bookmarfunction(bookmarkButton);
 });
