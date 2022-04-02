@@ -1,15 +1,26 @@
-import Bookmarfunction from "./bookmark.js";
-import Card from "./card.js";
+import Quizcard from "../card.js";
 
 const cardElements = document.querySelectorAll(".js-box");
 
-console.log(cardElements);
 cardElements.forEach((cardElement) => {
-  Card(cardElement);
+  Quizcard(cardElement);
 });
 
-const Bookmarks = document.querySelectorAll(".js-bookmark__box1");
+// import bookmarFunction from "./bookmark.js";
 
-Bookmarks.forEach((bookmarkButton) => {
-  Bookmarfunction(bookmarkButton);
-});
+// import Card from "./card.js";
+
+// const cardElements = document.querySelectorAll(".js-box");
+
+// console.log(cardElements);
+// cardElements.forEach((cardElement) => {
+//   Card(cardElement);
+// });
+
+// const Bookmarks = document.querySelectorAll(".js-bookmark__box1");
+
+// Bookmarks.forEach((bookmarkButton) => {
+//   bookmarFunction(bookmarkButton);
+// });
+
+// console.log(cardElements);
