@@ -2,13 +2,14 @@
 @import "./main.css";
 @import "./footer_navbar.css";
 @import "./question__box.css";
-
+@import "../profile.css";
+@import "../profile_main.css";
 
 * {
   box-sizing: border-box;
 }
 
-html{
+html {
   _font-size: 62.5%;
 }
 
@@ -18,8 +19,4 @@ body {
   align-items: center;
   width: 100%;
   margin: 0;
-}
-
-.header {
-  -position: relative;
 }
