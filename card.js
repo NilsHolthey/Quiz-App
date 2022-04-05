@@ -21,7 +21,6 @@ export default function Quizcard(cardElement) {
     }
   });
 
-  //EventListener BOOKMARK-CLICK
   bookmark.addEventListener("click", () => {
     bookmark.classList.toggle("bookmark__checked");
   });
