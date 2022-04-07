@@ -1,14 +1,13 @@
-@import "./navbar_styles.css";
-@import "./main.css";
-@import "./footer_navbar.css";
-@import "./question__box.css";
-
+@import './navbar_styles.css';
+@import './main.css';
+@import './footer_navbar.css';
+@import './question__box.css';
 
 * {
   box-sizing: border-box;
 }
 
-html{
+html {
   _font-size: 62.5%;
 }
 
