@@ -1,13 +1,17 @@
 .box {
   max-width: 80vw;
   height: calc(100vh - 12rem);
-  background-color: rgb(249, 249, 249);
-  background-image: url("../images/new/question-mark-background-1909040_1280 1.png");
+
+  backdrop-filter: blur(25px) saturate(22%);
+  -webkit-backdrop-filter: blur(25px) saturate(22%);
+  background-color: rgba(125, 129, 125, 0.37);
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.125);
   display: flex;
   justify-content: space-evenly;
   align-items: center;
   flex-direction: column;
-  border-radius: 10px;
+
   box-shadow: 0px 0px 10px 0px #bababa;
   position: relative;
 }
